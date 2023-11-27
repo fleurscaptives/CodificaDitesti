@@ -1,0 +1,222 @@
+/* font */
+@font-face {
+    font-family: 'mainfont';
+    src: url('font/VanioTrial-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'font_2';
+  src: url('font/DancingScript-VariableFont_wght.ttf');
+}
+
+.font_2 {
+    font-family: 'font_2', Verdana, serif;
+}
+
+/* sito */
+* {
+box-sizing: border-box;
+font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-size: cover;
+  background-color:#F5F3E1;
+  background-attachment: fixed;
+  font-family: 'mainfont', Verdana, serif;
+  margin: 0 0 100px 0;
+  bottom : 40px;
+  overflow-x: hidden;
+}
+
+#nav_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#CECCB9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  font-size: 2.4em;
+  text-align: center;
+}
+
+.delet {
+  text-decoration: line-through;
+  background-color: #DC8F8F;
+  border-radius: 10px;
+  padding:4px;
+}
+
+
+.add {
+  background-color: #B7E3AA;
+  border-radius: 10px;
+  padding:4px;
+}
+
+.correzioni {
+  background-color: #F9FB96;
+  border-radius: 10px;
+  padding:4px;
+  opacity: 65%;
+}
+
+.unclear {
+  background-color: #ABE6E5;
+  border-radius: 10px;
+  padding:4px;
+}
+
+.supplied {
+  background-color: #D3BAE1;
+  border-radius: 10px;
+  padding:4px;
+}
+
+#legenda {
+    position: fixed;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: max-content;
+    z-index: 99;
+}
+
+#legenda ul {
+  list-style-type: none;
+  margin: 12px;
+  padding: 12px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 2px solid Sienna;
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #F5F3E1;
+}
+
+#legenda li {
+  display: inline;
+  color:black;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 40px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#legenda ul li {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.red {
+  background-color: #DC8F8F;
+    margin-left: 40px;
+}
+
+.green {
+  background-color: #B7E3AA;
+}
+
+.blue {
+  background-color: #ABE6E5;
+}
+
+.yellow {
+  background-color: #F9FB96;
+}
+
+.purple {
+    background-color: #D3BAE1;
+}
+
+#page_49, #page_50, #page_51 {
+  line-height: 2;
+  padding: 3%;
+  width: auto;
+  overflow: visible;
+  border-left: solid 10px;
+  border-right: solid 10px;
+  border-color: #333;
+}
+
+hr {
+  border-top: 1px solid grey;
+  border-radius: 2px;
+}
+
+#intro  {
+    border-left: solid 10px;
+    border-right: solid 10px;
+    border-color: #333;
+    background-color: WhiteSmoke;
+    padding: 5%;
+    line-height: 1.7em;
+    width: auto;
+    overflow: visible;
+  }
+
+ h3 {
+   font-size: 1.5em;
+ }
+
+ #E_Artom, #foto_1, #foto_2, #foto_3 {
+     float: left;
+     padding-right: 5%;
+ }
+
+.bold {
+  font-weight: bold;
+}
+
+#note {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.foto_pagine {
+  padding-left: 5%;
+}
+
+.trascr_pagine {
+  padding-left: 45%;
+}
+
+.sel_riga {
+	color: Sienna;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
